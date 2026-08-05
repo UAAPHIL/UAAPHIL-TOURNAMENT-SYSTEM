@@ -1,0 +1,1 @@
+import type {Config} from "tailwindcss";const config:Config={content:["./src/**/*.{js,ts,jsx,tsx,mdx}"],darkMode:"class",theme:{extend:{colors:{background:"var(--background)",foreground:"var(--foreground)",surface:"var(--surface)","surface-2":"var(--surface-2)",border:"var(--border)",primary:"var(--primary)"}}}};export default config;
